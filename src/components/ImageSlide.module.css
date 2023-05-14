@@ -1,0 +1,20 @@
+.image_order_0, .image_order_1, .image_order_2, .image_order_3 {
+  row-gap: -100%;
+  opacity: 0;
+}
+.image_order_0 {
+  order: 4;
+  translate: -800px;
+}
+.image_order_1 {
+  order: 1;
+  opacity: 100;
+}
+.image_order_2 {
+  order: 2;
+  translate: 800px;
+}
+.image_order_3 {
+  order: 3;
+  translate: 1600px;
+}
