@@ -9,13 +9,14 @@ import { NavBar } from '@/components/NavBar'
 import { Footer } from '@/components/Footer'
 import { useContext, useState } from 'react'
 import { WinterAnimation } from '@/components/WinterAnimation';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Somewhere Coffee Shop',
-  description: 'An simple coffee shop website',
-}
+// export const metadata = {
+//   title: 'Somewhere Coffee Shop',
+//   description: 'An simple coffee shop website',
+// }
 
 export default function RootLayout({
   children,
@@ -26,6 +27,10 @@ export default function RootLayout({
   const [theme, setTheme] = useState(themeDefault);
   return (
     <html lang="en">
+      <Head>
+        <title>Somewhere Coffee Shop</title>
+        <meta name="description" content="An simple coffee shop website" />
+      </Head>
       <ThemeContext.Provider value={[theme, setTheme]}>
         <body className={inter.className + ' ' + `bg-${theme}-300 bg-opacity-[0.87] bg-bg-pattern bg-repeat-x shadow-2xl overflow-x-hidden`}>
           <WinterAnimation></WinterAnimation>
