@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Somewhere coffee shop
 
-## Getting Started
+This is a simple coffee shop website. Not full features yet but it have falling snows.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Demo](#demo)
+  - [Links](#links)
+- [For development](#for-development)
+- [Technology](#technology)
+- [Future plans](#future-plans)
+- [Author](#author)
+- [My recent works](#my-recent-works)
+
+## Overview
+
+### Demo
+
+[View demo video](https://github.com/Binh2/nextjs-coffee-shop/assets/53990204/99587146-22da-4e07-a162-c35e1b80a2a1)
+
+### Links
+
+[Checkout live site](https://nextjs-coffee-shop-binh2.vercel.app)
+[View source code](https://github.com/Binh2/nextjs-coffee-shop)
+
+## For development
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I use NextJS v13, TailwindCSS and Typescript.
 
-## Learn More
+## Future plans
 
-To learn more about Next.js, take a look at the following resources:
+The website still have a lot of unfinished works.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Add picture to food menu and description to food.
+- The links at the bottom of the page are unclickable because I haven't made pages for those links.
+- Made snow falling more realistic.
+- Some improvement on UI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+- Frontend Mentor - [@Binh2](https://www.frontendmentor.io/profile/Binh2)
+- Twitter - [@hgqbinh2002](https://twitter.com/hgqbinh2002)
+- LinkedIn - [hgqbinh2002](https://www.linkedin.com/in/hgqbinh2002/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My recent projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### My portfolio
+
+- Source URL: [See my source code](https://github.com/Binh2/portfolio/)
+- Live Site URL: [Visit my live site](https://portfolio-binh2.vercel.app)
+
+### A blog template
+
+- The source code: [Checkout my source code](https://github.com/Binh2/brother-blog)
+- Live Site URL: [My live webpage](https://binh2.github.io/brother-blog/)
+
+### Multi-step form
+
+- Solution URL: [My GitHub multi-step-form repo](https://github.com/Binh2/multi-step-form/)
+- Live Site URL: [Visit my live site](https://binh2.github.io/multi-step-form/)
