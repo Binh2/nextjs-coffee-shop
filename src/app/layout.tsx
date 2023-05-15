@@ -8,6 +8,7 @@ import { HeroHeader } from '../components/HeroHeader';
 import { NavBar } from '@/components/NavBar'
 import { Footer } from '@/components/Footer'
 import { useContext, useState } from 'react'
+import { WinterAnimation } from '@/components/WinterAnimation';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,7 +27,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ThemeContext.Provider value={[theme, setTheme]}>
-        <body className={inter.className + ' ' + `bg-${theme}-300 bg-opacity-[0.87] bg-bg-pattern bg-repeat-x shadow-2xl`}>
+        <body className={inter.className + ' ' + `bg-${theme}-300 bg-opacity-[0.87] bg-bg-pattern bg-repeat-x shadow-2xl overflow-x-hidden`}>
+          <WinterAnimation></WinterAnimation>
           <div className='max-w-[800px] absolute left-[50%] -translate-x-[50%]'>
             <ThemeBar></ThemeBar>
             <HeroHeader></HeroHeader>
